@@ -1,0 +1,153 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Work Sans', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Work Sans', sans-serif;
+
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+/***********************************
+          Your Project css start
+***********************************/
+
+/***********************************
+      header-section css start
+***********************************/
+.header-section{
+	width: 100%;
+	background: url("../images/slider.png") center top no-repeat;
+	background-size: cover;
+}
+.header-section .menu{
+	width: 100%;
+}
+.header-section .menu .bg-light{
+	background: transparent !important;
+}
+.header-section .menu .navbar-light .navbar-nav .nav-link {
+    color: #5a6e79;
+    margin: 0px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 0px;
+}
+.header-section .menu .navbar-light .navbar-nav .nav-link:hover{
+	color: #ffc178;
+	border-bottom: 1px solid #ffc178;
+}
+.header-section .menu .navbar-light .navbar-nav .active>.nav-link{
+	color: #ffc178;
+	border-bottom: 1px solid #ffc178;
+}
+.header-section .menu .navbar-light .navbar-nav .btn-info {
+	padding: 10px 35px;
+	background: #ffffff;
+	color: #ffc178;
+	border:0px;
+	border-radius: 30px;
+	font-size: 14px;
+    font-weight: 600;
+    transition: 1s ease-in;
+}
+.header-section .menu .navbar-light .navbar-nav .btn-info:hover, .menu .navbar-light .navbar-nav .btn-info:focus{
+	background: #ffc178;
+	color: #ffffff;
+	border:0px;
+}
+
+.header-section .banner{
+	width: 100%;
+	padding: 60px 0px 170px;
+}
+.header-section .banner .banner-inner{
+	width: 100%;
+	padding: 0px 0px 150px;
+}
+.header-section .banner .banner-inner h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	line-height: 50px;
+	font-weight: 700;
+	color: #ffc178;
+}
+.header-section .banner .banner-inner p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 600;
+	color: #5a6e79;
+}
+.header-section .banner .banner-inner .btn-info{
+	padding: 15px 35px;
+	margin-top: 15px;
+	background: #ffc178;
+	color: #fff;
+	border:0px;
+	border-radius: 30px;
+	font-size: 16px;
+    font-weight: 400;
+    transition: 1s ease-in;
+}
+.header-section .banner .banner-inner .btn-info:hover, .header-section .banner .banner-inner .btn-info:focus{
+	background: #fff;
+	color: #ffc178;
+	border:0px;
+}
+
+/***********************************
+      header-section css end
+***********************************/
+
+/***********************************
+      department-section css start
+***********************************/
+
+.department-section{
+	width: 100%;
+
+}
+.department-section .title{
+	width: 100%;
+	padding: 0px 0px 30px;
+	text-align: center;
+}
+.department-section .title h2{
+	font-size: 40px;
+	font-weight: 700;
+	color: #252c3a;
+}
+.department-section .title p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #5a6e79;
+}
+
+.department-section .dept-inner{
+	width: 100%;
+	text-align: center;
+}
+.department-section .dept-inner h4{
+	font-size: 30px;
+	font-weight: 700;
+	color: #fff;
+	margin-top: -100px;
+}
+
+/***********************************
+      department-section css end
+***********************************/
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Work Sans', sans-serif;
