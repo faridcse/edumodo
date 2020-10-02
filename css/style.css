@@ -100,8 +100,8 @@ a, a:hover{
     transition: 1s ease-in;
 }
 .header-section .banner .banner-inner .btn-info:hover, .header-section .banner .banner-inner .btn-info:focus{
-	background: #fff;
-	color: #ffc178;
+	background: #5a6e79;
+	color: #fff;
 	border:0px;
 }
 
@@ -115,7 +115,7 @@ a, a:hover{
 
 .department-section{
 	width: 100%;
-
+	padding: 30px 0px 60px;
 }
 .department-section .title{
 	width: 100%;
@@ -136,18 +136,114 @@ a, a:hover{
 
 .department-section .dept-inner{
 	width: 100%;
+	padding: 50px 30px;
 	text-align: center;
 }
+.department-section .bg1{
+	background: #f9703a;
+}
+.department-section .bg2{
+	background: #80be41;
+}
+.department-section .bg3{
+	background: #feb056;
+}
 .department-section .dept-inner h4{
-	font-size: 30px;
+	font-size: 24px;
 	font-weight: 700;
 	color: #fff;
-	margin-top: -100px;
 }
 
 /***********************************
       department-section css end
 ***********************************/
+
+/***********************************
+      limitless-section css start
+***********************************/
+
+.limitless-section{
+	width: 100%;
+	padding: 40px 50px;
+}
+
+.limitless-section .inner-img{
+	width: 100%;
+}
+.limitless-section .innter-text{
+	width: 100%;
+}
+.limitless-section .innter-text h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	color: #252c3a;
+}
+.limitless-section .innter-text p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #5a6e79;
+}
+.limitless-section .innter-text .students{
+	width: 100%;
+	padding: 20px 0px;
+}
+
+.limitless-section .innter-text .students h4{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	color: #ffba00;
+}
+.limitless-section .innter-text .students p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	color: #ffba00;
+	margin-top: -10px;
+}
+.limitless-section .innter-text .cources{
+	width: 100%;
+	padding: 20px 0px;
+}
+
+.limitless-section .innter-text .cources h4{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	color: #ff5f72;
+}
+.limitless-section .innter-text .cources p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	color: #ff5f72;
+	margin-top: -10px;
+}
+.limitless-section .innter-text .hours{
+	width: 100%;
+	padding: 20px 0px;
+}
+
+.limitless-section .innter-text .hours h4{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	color: #43cb83;
+}
+.limitless-section .innter-text .hours p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	color: #43cb83;
+	margin-top: -10px;
+}
+
+
+
+
+
+
 
 font-family: 'Montserrat', sans-serif;
 font-family: 'Work Sans', sans-serif;
