@@ -305,6 +305,7 @@ a, a:hover{
 .arround-section .card:hover .btn-link{
 	color:#252c3a;
 	font-weight: 600;
+	text-decoration: none;
 }
 
 /***********************************
