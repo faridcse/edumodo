@@ -8,6 +8,7 @@ body{
 	font-family: 'Work Sans', sans-serif;
 	font-size: 14px;
 	line-height: 24px;
+
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -238,12 +239,234 @@ a, a:hover{
 	color: #43cb83;
 	margin-top: -10px;
 }
+/***********************************
+      limitless-section css end
+***********************************/
+
+/***********************************
+      arround-section css start
+***********************************/
+
+.arround-section{
+	width: 100%;
+	padding: 40px 0px;
+	background: #fafafb;
+}
+.arround-section .title{
+	width: 100%;
+	padding: 0px 0px 40px;
+	text-align: center;
+}
+.arround-section .title h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	color: #252c3a;
+}
+
+.arround-section .card{
+	margin-bottom: 25px;
+	border: 0px;
+}
+
+.arround-section .card-body {
+    padding: 24px;
+}
+
+.arround-section .card-title {
+    margin-bottom: 5px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #252c3a;
+}
+
+.arround-section .card-text {
+	font-size: 12px;
+    color: #5a6e79;
+}
+
+.arround-section .btn-link {
+	font-size: 14px;
+	font-weight: 600;
+	color: #5a6e79;
+    padding-left: 0px;
+}
+.arround-section .card:hover{
+	cursor: pointer;
+}
+.arround-section .card:hover .card-title{
+	color: #ffc178;
+	text-decoration: underline;
+}
+.arround-section .card:hover .card-text{
+	color: #5a6e79;
+}
+.arround-section .card:hover .btn-link{
+	color:#252c3a;
+	font-weight: 600;
+}
+
+/***********************************
+      arround-section css end
+***********************************/
+
+/***********************************
+      footer-section css start
+***********************************/
+
+.footer-section{
+	width: 100%;
+}
+.footer-section .top-widget-footer{
+	width: 100%;
+	padding: 80px 0px;
+	background: #252c3a;
+}
+.footer-section .top-widget-footer .inner-widget {
+	width: 100%;
+}
+.footer-section .top-widget-footer .inner-widget img{
+	/*margin-bottom: 5px;*/
+}
+.footer-section .top-widget-footer .inner-widget p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: #969595;
+	/*margin-bottom: 10px;*/
+}
+.footer-section .top-widget-footer .inner-widget .divider{
+	width: 100%;
+	height: 1px;
+	background: #303744;
+	margin-bottom: 25px;
+}
+.footer-section .top-widget-footer .inner-widget .social-icons{
+	width: 100%;
+}
+.footer-section .top-widget-footer .inner-widget .social-icons li{
+	display: inline-block;
+	list-style: none;
+}
+.footer-section .top-widget-footer .inner-widget .social-icons li a{
+	color: #4a4a4a;
+	font-size: 18px;
+	margin: 0px 12px 0px 0px;
+}
+.footer-section .top-widget-footer .inner-widget .social-icons li a:hover{
+	color: #0089fd;
+}
+
+.footer-section .top-widget-footer .inner-widget h4{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.footer-section .top-widget-footer .inner-widget p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	color: #969595;
+	padding: 15px 0px;
+}
+
+.footer-section .top-widget-footer .inner-widget .list-group .list-group-item {
+    position: relative;
+    display: block;
+    padding: 5px 0px;
+    margin-top: 20px;
+    background-color: transparent;
+    color: #969595;    
+    border: 0px solid rgba(0,0,0,.125);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.footer-section .top-widget-footer .inner-widget .list-group .list-group-item span{
+	color: #6b6b6b;
+	font-size: 12px;
+}
+
+.footer-section .top-widget-footer .inner-widget .list-group .list-group-item a{
+	list-style:none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: #969595;
+}
+
+.footer-section .top-widget-footer .inner-widget .form{
+	width: 100%;
+}
+
+.footer-section .top-widget-footer .inner-widget .form .form-group{
+	width: 100%;
+	position: relative;
+}
+.footer-section .top-widget-footer .inner-widget .form .form-group .form-control{
+	border-radius: 0px;
+	border:0px;
+	padding-right: 100px;
+	font-size: 12px;
+	height: 40px;
+}
+.footer-section .top-widget-footer .inner-widget .form .form-group .form-control:focus{
+	box-shadow: none;
+}
+.footer-section .top-widget-footer .inner-widget .form .form-group .btn-primary{
+	position:absolute;
+	top: 0px;
+	right: 0px;
+	border-radius: 0px;
+	border: 0px;
+	padding: 10px 12px;
+	background: #ffc178;
+	color:#fff;
+	font-size: 12px;
+	text-transform: uppercase;
 
 
+}
 
-
-
-
+.footer-section .footer-area{
+	width: 100%;
+	background: #1d232e;
+}
+.footer-section .footer-area .copyright{
+	width: 100%;
+	padding: 23px 0px;
+	
+}
+.footer-section .footer-area .copyright h2{
+	font-size: 13px;
+	color: #6b6b6b;
+}
+.footer-section .footer-area .fmenu{
+	width: 100%;
+	text-align: right;
+}
+.footer-section .footer-area .fmenu ul{
+	padding: 0px;
+	margin: 0px;
+}
+.footer-section .footer-area .fmenu ul li{
+	display: inline-block;
+	padding: 23px 0px;
+	font-size: 13px;
+	font-weight: 500;
+	
+}
+.footer-section .footer-area .fmenu ul li a{
+	text-decoration: none;
+	margin: 0px 10px;
+	color: #6b6b6b;
+}
+.footer-section .footer-area .fmenu ul li a:hover{
+	color: #fff;
+}
+/***********************************
+      footer-section css end
+***********************************/
 
 font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
 font-family: 'Work Sans', sans-serif;
